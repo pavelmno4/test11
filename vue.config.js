@@ -10,7 +10,7 @@ module.exports = {
                     }]
                 },
                 "win": {
-                    "target": "nsis"
+                    "target": "portable"
                 },
                 "nsis": {
                     "oneClick": "false",
