@@ -6,8 +6,16 @@ module.exports = {
                     "publish": [{
                         "provider": "github",
                         "owner": "pavelmno4",
-                        "repo": "electron-update"
+                        "repo": "test11"
                     }]
+                },
+                "win": {
+                    "target": "nsis"
+                },
+                "nsis": {
+                    "oneClick": "false",
+                    "allowToChangeInstallationDirectory": "true"
+                }
             }
         }
     }
